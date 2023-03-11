@@ -37,7 +37,6 @@ const typeDefs = gql`
     thumbnail: String
     "The track's approximate length to complete, in seconds"
     length: Int @deprecated(reason: "Use durationInSeconds")
-    "The number of modules this track contains"
     "The track's full duration, in seconds"
     durationInSeconds: Int
     modulesCount: Int
